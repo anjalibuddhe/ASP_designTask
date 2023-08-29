@@ -1,0 +1,75 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*--------------navbar-brand-------------*/
+
+
+.navbar{
+    color:green;
+}
+
+#aboutusimg {
+    background-image: url('https://www.w3schools.com/css/img_forest.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    opacity: 0.8;
+}
+
+#aboutusimg h1 {
+    margin-top: 10rem;
+    color: #fff;
+    font-size: 3rem;
+}
+
+#aboutusimg p {
+    color: #fff;
+}
+#aboutinfo{
+    margin-top:2rem;
+}
+.fa {
+    text-align: center;
+    width: 100%;
+}
+
+/*-----------------homepage-----------------*/
+#hero-header {
+    background-image: url('https://www.w3schools.com/css/img_forest.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+
+.package-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+
+.package-item img {
+    transition: .5s;
+}
+
+.package-item:hover img {
+    transform: scale(1.1);
+}
+
+.fa-star{
+    display:flex;
+}
+
+/*-------------contactus---------*/
+#contactuspage {
+    background-image: url('https://www.w3schools.com/css/img_forest.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#name.form-control::placeholder {
+    color: #fff;
+}

@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewData["Title"] = "ContactUs";
+}
+
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s" id="contactuspage">
+    <div class="container">
+        <div class="booking p-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-6">
+                    <h6 class="text-white text-uppercase">Booking</h6>
+                    <h1 class="text-white mb-4">Online Booking</h1>
+                    <p class="mb-4 text-white">
+                        Please, do not hesitate to get in touch.
+                        Please use this form to get in touch with us..
+                    </p>
+                    <p class="mb-4 text-white">If you've got a specific question about our services, then why not check out our website and get in touch with us!</p>
+                    <a class="btn btn-outline-light py-3 px-5 mt-2" href="">Read More</a>
+                </div>
+                <div class="col-md-6">
+                    <h1 class="text-white mb-4">Book A Tour</h1>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control  btn-outline-light" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control btn-outline-light" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating date" id="date3" data-target-input="nearest">
+                                    <input type="text" class="form-control btn-outline-light datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
+                                    <label for="datetime">Date & Time</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select btn-outline-light" id="select1">
+                                        <option value="1">Thailand</option>
+                                        <option value="2">Malaysia</option>
+                                        <option value="3">Maldives</option>
+                                    </select>
+                                    <label for="select1">Destination</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Special Request</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-outline-light w-100 py-3" type="submit">Book Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
